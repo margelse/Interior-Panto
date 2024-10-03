@@ -1,0 +1,31 @@
+.products {
+    padding: 50px 121px;
+    background-color: #F7F7F7;
+
+    @media (max-width: 600px) {
+        padding: 30px 10px;
+    }
+}
+.products__items {
+    
+}
+.products__title {
+    text-align: center;
+}
+.products__tabs {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+.products__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.all-products__link {
+    text-align: center;
+    margin-top: 60px;
+}

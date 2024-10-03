@@ -1,0 +1,42 @@
+.info-dot {
+    position: relative;
+}
+.info-dot__circle {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    transition: all 0.3s;
+}
+.info-dot__radius {
+    width: 32px;
+    height: 32px;
+    border: solid 1px rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.75);
+    }
+}
+
+.info-dot:hover .info-dot__radius {
+    animation: pulse 1s infinite paused;   
+}
+.info-dot:hover .info-dot__circle {
+    background-color: $accent;
+    transition: all 0.3s;   
+}

@@ -1,0 +1,40 @@
+.info-hint {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding-top: 12px;
+    position: absolute;
+    width: 112px;
+    height: 55.96px;
+    
+    top: 0;
+    left: 0;
+    transform: translate(-36%, -94px);
+    background-image: url("../image/header/icons/Union.svg");
+}
+.info-hint__radio {
+    display: none;
+}
+.info-hint__radio-fake {
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+    border: solid 2px #FFFFFF;
+
+    box-shadow: 0px 4px 6px 0px #0000001A;
+}
+.orange {
+    background-color: rgb(255, 165, 0);
+}
+.blue {
+    background-color: $biruza;
+}
+.gray {
+    background-color: $gray;
+}
+.info-hint__radio:checked + .info-hint__radio-fake {
+    background-image: url("../image/header/icons/check.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}

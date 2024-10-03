@@ -1,0 +1,6 @@
+.section-title {
+    font-family: $main-text;
+    font-size: clamp(1.5rem, 1.133rem + 1.84vw, 2.625rem);
+    font-weight: bold;
+    color: $section-title;
+}

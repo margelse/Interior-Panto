@@ -1,0 +1,21 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    &--small {
+        max-width: 1084px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Gilroy";
+}
+
+.none {
+    display: none !important;
+}

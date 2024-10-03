@@ -1,0 +1,27 @@
+.banefits-list {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 41px;
+
+    color: $section-title;
+
+    @media (max-width: 1080px) {
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    }
+}
+.banefits-list__column p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29.6px;
+
+    margin-top: 20px;
+}
+.banefits-list__title {
+    font-weight: bold;
+    font-size: clamp(1.25rem, 1.083rem + 0.83vw, 1.5rem);
+    line-height: 28.13px;
+}
+.banefits-list__link {
+    margin-top: 14px;
+}

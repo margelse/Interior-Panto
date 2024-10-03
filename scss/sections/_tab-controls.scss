@@ -1,0 +1,26 @@
+.tab-controls {
+    display: inline-flex;
+    background-color: $tab-bg;
+    border-radius: 44px;
+    padding: 6px;
+
+    @include mobile() {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+.tab-controls-btn {
+    padding: 7px 19.5px;
+    font-family: $main-text;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33.3px;
+
+    color: rgba(30, 30, 30, 0.8);
+    border-radius: 32px;
+    
+    &--active {
+        background-color: $white;
+    }
+}

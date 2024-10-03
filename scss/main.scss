@@ -1,0 +1,24 @@
+// Base
+@import "base/base";
+@import "base/reset";
+@import "base/vars";
+
+// Section
+@import "sections/section-title";
+@import "sections/tab-controls";
+@import "sections/card";
+@import "sections/slider";
+@import "sections/nav-list";
+@import "sections/form";
+@import "sections/info-dot";
+@import "sections/info-hint";
+@import "sections/more-info";
+@import "sections/banefits-list";
+@import "sections/furniture-nav";
+@import "sections/mobile-nav";
+
+// Blocks
+@import "blocks/products";
+@import "blocks/header";
+@import "blocks/banefits";
+@import "blocks/footer";
